@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
+    "next": "14.2.15",
+    "react": "^18.3.1",
     "react-dom": "^18",
-    "next": "14.2.15"
+    "swr": "^2.2.5"
   },
   "devDependencies": {
+    "@types/react": "^18.3.11",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
   }
