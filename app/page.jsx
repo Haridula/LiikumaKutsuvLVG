@@ -8,16 +8,11 @@ const Home = () => {
             Liikumine on rõõm!
         </h1>
         <br className="max-md:hidden" />
-            <span className="head_text text-center orange_gradient">Liigume, LVG õpilased!
+            <span className="head_text text-center blue_gradient">Liigume, LVG õpilased!
             </span>
             <p className="desc text-center">
                 Leiage oma endale kasulikud nõuanned, et koguaeg terveks jääda.
             </p>
-            <button>
-                <Link href="/nouanned">
-
-                </Link>
-            </button>
     </section>
   )
 }
