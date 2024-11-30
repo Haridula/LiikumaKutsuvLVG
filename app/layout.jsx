@@ -1,7 +1,7 @@
 import '@styles/globals.css';
 
+import Feed from '@components/Feed';
 import Nav from '@components/Nav';
-import Provider from '@components/Provider';
 
 export const metadata = {
     title: "Liikuma Kutsuv Kool",
@@ -19,7 +19,11 @@ const RootLayout = ({ children }) => {
                 <Nav />
               {children}
             </main>
+            <div>
+            <Feed/>
+            </div>
         </body>
+        
      </html>
   )
 }

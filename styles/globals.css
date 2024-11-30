@@ -101,6 +101,10 @@
     @apply bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
 }
 
+grey_gradient {
+    @apply bg-gradient-to-r from-slate-900 to-slate-700;
+}
+
 .desc {
     @apply mt-5 text-lg text-gray-600 sm:text-base max-w-xl;
 }

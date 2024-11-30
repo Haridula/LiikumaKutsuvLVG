@@ -10,7 +10,7 @@ module.exports = {
         sm: ['14px', '20px'],
         base: ['16px', '8px'],
         lg: ['20px', '28px'],
-        xl: ['48.832px', '62px'],
+        xl: ['48.832px', '63px'],
       },
     extend: {
       fontFamily: {
