@@ -15,6 +15,7 @@ const Home = () => {
             <p className="w-full flex-center flex-col desc text-center">
               Leiage oma endale kasulikud nõuanned, et koguaeg terveks jääda.
            </p>
+           <Feed />
     </div>
   )
 }

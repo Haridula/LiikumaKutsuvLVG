@@ -101,8 +101,8 @@
     @apply bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
 }
 
-grey_gradient {
-    @apply bg-gradient-to-r from-slate-900 to-slate-700;
+.grey_gradient {
+    @apply bg-gradient-to-r from-gray-500 to-zinc-700 bg-clip-text text-transparent;
 }
 
 .desc {
