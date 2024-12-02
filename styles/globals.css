@@ -78,7 +78,11 @@
 }
 
 .black_btn {
-    @apply rounded-full border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black text-center text-sm font-inter flex items-center justify-center;
+    @apply rounded-xl border border-black bg-black py-3 px-5 text-white transition-all hover:bg-white hover:text-black text-center font-inter flex items-center justify-center;
+}
+
+.blue_btn {
+    @apply rounded-xl border border-blue-600 bg-blue-600 py-3 px-5 text-white transition-all hover:bg-white hover:text-black text-center font-inter flex items-center justify-center;
 }
 
 .outline_btn {
@@ -106,7 +110,7 @@
 }
 
 .desc {
-    @apply mt-5 text-lg text-gray-600 sm:text-base max-w-xl;
+    @apply mt-5 text-gray-600 text-sm max-w-xl;
 }
 
 .search_input {
@@ -141,7 +145,7 @@
 
 /* Nav Component */
 .logo_text {
-    @apply max-sm:hidden font-satoshi font-semibold text-lg text-black tracking-wide;
+    @apply max-sm:hidden font-satoshi font-semibold text-sm text-black tracking-wide;
 }
 
 .dropdown {

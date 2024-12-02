@@ -1,4 +1,7 @@
+'use client';
+
 import Feed from '@components/Feed';
+import { useEffect, useState } from 'react'
 import Link from 'next/link';
 import { Children } from 'react';
 
