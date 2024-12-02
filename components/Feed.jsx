@@ -1,18 +1,16 @@
-import React from 'react'
+'use client';
 
+import Link from 'next/link';
+import { useEffect, useState } from 'react'
+ 
 const Feed = () => {
     return(
-        <div className="">
-            <p className="pt-64 mt-64 text-xl font-extrabold text-black sm:text-xl">
-            <a className="static">
-                🔽
-                </a>
-                <a className="grey_gradient">Vali oma rada siin!
-                </a>
-                <a className="">
-                🔽
-                </a>
-            </p>
+        <div className="text-center pt-36 md:mt-24 text-lg font-extrabold text-black">
+            <Link href="/rajad">
+                <p className="black_btn">
+                    Vali oma rada!
+                </p>
+            </Link>
         </div>
     )
 }
