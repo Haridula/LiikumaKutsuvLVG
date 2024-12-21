@@ -1,7 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react'
-import '@styles/globals.css';
+import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -20,27 +19,27 @@ const rajad = () => {
             className='mb-10'
         />
 
-        <Link href="/rajad/A">
+        <Link href="/rajad/B">
             <button className="blue_btn text-xl xs:hidden absolute font-bold left-1/4 max-sm:hidden">
-                A-hoone
+                B-hoone
             </button>
         </Link>
 
-        <Link href="/rajad/A">
+        <Link href="/rajad/B">
             <button className="blue_btn text-base font-bold absolute left-3 sm:left-3 md:hidden">
-                A-hoone
+                B-hoone
             </button>
         </Link>
         
-        <Link href="/rajad/B">
+        <Link href="/rajad/A">
             <button className="blue_btn text-xl font-bold right-1/4 absolute max-sm:hidden">
-                B-hoone
+                A-hoone
             </button>
         </Link>
 
-        <Link href="/rajad/B">
+        <Link href="/rajad/A">
             <button className="blue_btn text-base font-bold absolute right-3 md:hidden">
-                B-hoone
+                A-hoone
             </button>
         </Link>
     </div>
