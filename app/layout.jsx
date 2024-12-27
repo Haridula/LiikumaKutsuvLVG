@@ -20,4 +20,5 @@ function RootLayout({ children, loader }) {
     </html>
   );
 }
-  export default RootLayout
+
+export default RootLayout
