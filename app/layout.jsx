@@ -1,6 +1,6 @@
 import '@styles/globals.css';
 import Nav from '@components/Nav';
-import Loader from '@components/loader';
+import Loader from '@components/Loader';
 
 export const metadata = {
     title: "Liikuma Kutsuv LVG",
@@ -9,7 +9,7 @@ export const metadata = {
 
 function RootLayout({ children, loader }) {
   return (
-    <html lang="ee">
+    <html lang="et">
       <body>
         <main className="app">
           <Loader />
