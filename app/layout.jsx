@@ -1,6 +1,6 @@
 import '@styles/globals.css';
-import Nav from '@components/nav';
-import Loader from '@components/loader';
+import Nav from '@components/Nav';
+import Loader from '@components/Loader';
 
 export const metadata = {
     title: "Liikuma Kutsuv LVG",
