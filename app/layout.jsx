@@ -7,13 +7,13 @@ export const metadata = {
     description: 'Liikumisega seotud nõuanded ja terviserajad'
 }
 
-function RootLayout({ children, loader }) {
+function RootLayout ({ children, loader }) {
   return (
     <html lang="et">
       <body>
         <main className="app">
-          <Loader />
           <Nav />
+          {loader && <Loader />}
           {children}
         </main>
       </body>
