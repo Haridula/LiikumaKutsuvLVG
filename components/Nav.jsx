@@ -1,59 +1,96 @@
 'use client';
 
-import React from 'react';
-import Link from 'next/link';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 export default function Nav() {
   const router = useRouter();
+  const [currentLanguage, setCurrentLanguage] = useState('/');
 
-  const changeLanguage = (newLocale) => {
-    const currentPathname = window.location.pathname;
-    const currentSearch = window.location.search;
-    
-    // Remove any existing locale from the path
-    const pathWithoutLocale = currentPathname.replace(/^\/(en|et)/, '')
-
-    // Debugging: Check if router and router.push are defined
-    console.log('Router:', router);
-    console.log('Router.push:', router.push);
-
-    // Ensure router is defined before calling push
-    if (router && typeof router.push === 'function') {
-      router.push(`/${newLocale}${pathWithoutLocale}${currentSearch}`)
-        .catch((err) => {
-          console.error('Error while changing language:', err);
-        });
-    } else {
-      console.error('Router is not defined or push method is not available');
-    }
+  const changeLanguage = (lang) => {
+    setCurrentLanguage(lang);
+    router.push(`/${lang}`);
   };
 
   return (
-    <nav className="flex-between w-full mb-8 pt-4">
-      <Link href="/" className="flex-center">
-        <Image
-          src="/assets/images/logo.jpg"
-          alt="LVG Logo"
-          width={65}
-          height={65}
-        />
-        <p className="logo_text">
-          &nbsp;&nbsp;LVG terviserajad
-        </p>
-      </Link>
-
-      <Link href="/about">
-        <p className="font-semibold text-sm tracking-wide">
-          About
-        </p>
-      </Link>
-
-      <div>
-      <button onClick={() => changeLanguage('en')}>English&nbsp;</button>
-      <button onClick={() => changeLanguage('et')}>Eesti</button>
+    <nav>
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        {currentLanguage === '/' ? (
+                <>
+                  <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                    <Image
+                    className=""
+                    src="/assets/images/logo.jpg"
+                    alt="LVG Logo"
+                    width={55}
+                    height={55}
+                    />
+                            
+                    <p className="self-center text-sm font-semibold whitespace-nowrap max-sm:hidden">
+                      LVG terviserajad
+                    </p>
+                  </a>
+                </>
+              ) : (
+              <>
+                <a href="/en" className="flex items-center space-x-3 rtl:space-x-reverse">
+                  <Image
+                  className=""
+                  src="/assets/images/logo.jpg"
+                  alt="LVG Logo"
+                  width={55}
+                  height={55}
+                  />
+                  
+                  <p className="self-center text-sm font-semibold whitespace-nowrap max-sm:hidden">
+                    LVG terviserajad
+                  </p>
+                </a>
+              </>
+            )
+          }
+          <div className="hidden w-full md:block md:w-auto">
+            <div className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
+              {currentLanguage === '/' ? (
+                  <>
+                    <a href="en/about" className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
+                      About
+                    </a>
+                  </>
+                ) : (
+                  <>
+                    <a href="/about" className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
+                      About
+                    </a>
+                  </>
+                )
+              }
+                    
+            <div>
+              {currentLanguage === '/' ? (
+                <>
+                  <button className='tracking-wide font-semibold text-sm hover:text-blue-600' onClick={() => changeLanguage('en')}>English&nbsp;
+                    <span className="Emoji_emoji__6sYSR __variable_c30de8 Emoji_emoji-large__iiCJx !bg-transparent transform active:scale-75 transition-transform" data-src="">
+                      🇬🇧
+                    </span>
+                  </button>
+                </>
+              ) : (
+                <>
+                  <button className='tracking-wide font-semibold text-sm hover:text-blue-600' onClick={() => changeLanguage('/')}>Eesti&nbsp;
+                    <span className="Emoji_emoji__6sYSR __variable_c30de8 Emoji_emoji-large__iiCJx !bg-transparent transform active:scale-75 transition-transform" data-src="">
+                      🇪🇪
+                    </span>
+                  </button>
+                </>
+                )
+              }
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
   );
 }
+

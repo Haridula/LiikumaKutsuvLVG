@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-const A = () => {
+const B = () => {
   return (
     <div>
         
@@ -10,4 +10,4 @@ const A = () => {
   )
 }
 
-export default A
+export default B
