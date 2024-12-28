@@ -54,13 +54,13 @@ export default function Nav() {
             <div className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
               {currentLanguage === '/' ? (
                   <>
-                    <a href="en/about" className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
+                    <a href="/about" className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
                       About
                     </a>
                   </>
                 ) : (
                   <>
-                    <a href="/about" className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
+                    <a href="en/about" className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
                       About
                     </a>
                   </>
