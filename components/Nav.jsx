@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'; //always import from 'next/navigati
 
 export default function Nav() {
   const router = useRouter();
-  const [currentLanguage, setCurrentLanguage] = useState('/');
+  const [currentLanguage, setCurrentLanguage] = useState('/'); //Set default language to Estonian.
 
   const changeLanguage = (lang) => { //Change language function only for navbar for logo and language buttons.
     setCurrentLanguage(lang);
@@ -98,4 +98,4 @@ export default function Nav() {
       </div>
     </nav>
   );
-}
+};

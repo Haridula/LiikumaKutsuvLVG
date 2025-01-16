@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -45,7 +45,7 @@ const rajad = () => {
             </Link>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default rajad

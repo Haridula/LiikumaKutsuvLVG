@@ -5,19 +5,19 @@ import Loader from '@components/loader';
 export const metadata = {
     title: "Liikuma Kutsuv LVG",
     description: 'Liikumisega seotud nõuanned ja terviserajad'
-}
+};
 
 function RootLayout({ children, loader }) { //do not remove the loader prop. It gonna crash everything. IDK why but it does.
   return (
     <html>
       <body>
       <Nav/>
-        <main>
+        <main> 
           <Loader/>
           {children}
         </main>
       </body>
     </html>
-  );
-}
+  ); //remember not to use global styles.
+};
 export default RootLayout

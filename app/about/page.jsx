@@ -1,13 +1,13 @@
 'use client';
 
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
 
 const about = () => {
   return (
     <div className='app'>
       <div className='mt-5 mb-5'>
-        <h1 className='mt-2.5 mb-2.5 text-base font-bold text-black blue_gradient'>
+        <h1 className='mt-2.5 mb-2.5 text-base font-bold blue_gradient'>
           See veebirakendus tehtud spetsiaalselt praktilise töö jaoks.
         </h1>
         <hr className='mt-5 mb-2.5'/>
@@ -28,7 +28,7 @@ const about = () => {
         </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default about

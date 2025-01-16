@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
 
 const about = () => {
   return (
@@ -28,7 +28,7 @@ const about = () => {
         </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default about
