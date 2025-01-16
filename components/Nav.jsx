@@ -15,6 +15,8 @@ export default function Nav() {
 
   const aboutPage = (lang) => { //Change language function only for navbar and only for about.
     setCurrentLanguage(lang);
+    if (lang === '/') router.push(`/about`);
+    else
     router.push(`/${lang}/about`);
   };
 
