@@ -11,9 +11,9 @@ function RootLayout({ children, loader }) { //do not remove the loader prop. It 
   return (
     <html>
       <body>
-      <Nav />
-        <main className="app">
-          <Loader />
+      <Nav/>
+        <main>
+          <Loader/>
           {children}
         </main>
       </body>
