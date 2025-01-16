@@ -19,25 +19,25 @@ const tracks = () => {
             className='mb-10'
         />
 
-        <Link href="en/tracks/B">
+        <Link href="tracks/B">
             <button className="blue_btn text-xl xs:hidden absolute font-bold left-1/4 max-sm:hidden">
                 B-wing
             </button>
         </Link>
 
-        <Link href="en/tracks/B">
+        <Link href="tracks/B">
             <button className="blue_btn text-base font-bold absolute left-3 sm:left-3 md:hidden">
                 B-wing
             </button>
         </Link>
         
-        <Link href="en/tracks/A">
+        <Link href="tracks/A">
             <button className="blue_btn text-xl font-bold right-1/4 absolute max-sm:hidden">
                 A-wing
             </button>
         </Link>
 
-        <Link href="en/tracks/A">
+        <Link href="tracks/A">
             <button className="blue_btn text-base font-bold absolute right-3 md:hidden">
                 A-wing
             </button>

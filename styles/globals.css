@@ -65,6 +65,8 @@
     opacity: 0.15;
 }
 
+/* Loader Styles start here */
+
 .loader div:nth-child(1){
     animation-delay: 0.05s;
 }

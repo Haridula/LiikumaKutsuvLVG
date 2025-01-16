@@ -2,23 +2,28 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/navigation'; //always import from 'next/navigation'.
 
 export default function Nav() {
   const router = useRouter();
   const [currentLanguage, setCurrentLanguage] = useState('/');
 
-  const changeLanguage = (lang) => {
+  const changeLanguage = (lang) => { //Change language function only for navbar for logo and language buttons.
     setCurrentLanguage(lang);
     router.push(`/${lang}`);
+  };
+
+  const aboutPage = (lang) => { //Change language function only for navbar and only for about.
+    setCurrentLanguage(lang);
+    router.push(`/${lang}/about`);
   };
 
   return (
     <nav>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        {currentLanguage === '/' ? (
+        {currentLanguage === '/' ? ( //Navbar changes depending on the language set by currentLanguage variable.
                 <>
-                  <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                  <button onClick={() => changeLanguage('/')} className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image
                     className=""
                     src="/assets/images/logo.jpg"
@@ -28,13 +33,13 @@ export default function Nav() {
                     />
                             
                     <p className="self-center text-sm font-semibold whitespace-nowrap max-sm:hidden">
-                      LVG terviserajad
+                      Liikuma Kutsuv LVG
                     </p>
-                  </a>
+                  </button>
                 </>
-              ) : (
+              ) : currentLanguage === 'en' ? (
               <>
-                <a href="/en" className="flex items-center space-x-3 rtl:space-x-reverse">
+                <button onClick={() => changeLanguage('en')} className="flex items-center space-x-3 rtl:space-x-reverse">
                   <Image
                   className=""
                   src="/assets/images/logo.jpg"
@@ -44,30 +49,30 @@ export default function Nav() {
                   />
                   
                   <p className="self-center text-sm font-semibold whitespace-nowrap max-sm:hidden">
-                    LVG terviserajad
+                    Liikuma Kutsuv LVG
                   </p>
-                </a>
+                </button>
               </>
-            )
+            ) : null
           }
-          <div className="hidden w-full md:block md:w-auto">
-            <div className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
+          <div className="">
+            <div className="font-medium flex md-flex-col p-4 md:p-0 mt-4 md:flex-row space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
               {currentLanguage === '/' ? (
                   <>
-                    <a href="/about" className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
+                    <button onClick={() => aboutPage('/')} className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
                       About
-                    </a>
+                    </button>
                   </>
-                ) : (
+                ) : currentLanguage === 'en' ? (
                   <>
-                    <a href="en/about" className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
+                    <button onClick={() => aboutPage('en')} className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
                       About
-                    </a>
+                    </button>
                   </>
-                )
+                ) : null
               }
                     
-            <div>
+            <div className='flex'>
               {currentLanguage === '/' ? (
                 <>
                   <button className='tracking-wide font-semibold text-sm hover:text-blue-600' onClick={() => changeLanguage('en')}>English&nbsp;
@@ -76,7 +81,7 @@ export default function Nav() {
                     </span>
                   </button>
                 </>
-              ) : (
+              ) : currentLanguage === 'en' ? (
                 <>
                   <button className='tracking-wide font-semibold text-sm hover:text-blue-600' onClick={() => changeLanguage('/')}>Eesti&nbsp;
                     <span className="Emoji_emoji__6sYSR __variable_c30de8 Emoji_emoji-large__iiCJx !bg-transparent transform active:scale-75 transition-transform" data-src="">
@@ -84,7 +89,7 @@ export default function Nav() {
                     </span>
                   </button>
                 </>
-                )
+                ) : null
               }
             </div>
           </div>
@@ -93,4 +98,3 @@ export default function Nav() {
     </nav>
   );
 }
-

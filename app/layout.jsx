@@ -7,7 +7,7 @@ export const metadata = {
     description: 'Liikumisega seotud nõuanned ja terviserajad'
 }
 
-function RootLayout({ children, loader }) {
+function RootLayout({ children, loader }) { //do not remove the loader prop. It gonna crash everything. IDK why but it does.
   return (
     <html>
       <body>
@@ -20,4 +20,4 @@ function RootLayout({ children, loader }) {
     </html>
   );
 }
-  export default RootLayout
+export default RootLayout

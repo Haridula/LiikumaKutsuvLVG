@@ -6,8 +6,8 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-      fontSize: {
-        sm: ['20px', '20px'],
+      fontSize: { //These are custom sizes. Try not to change them.
+        sm: ['20px', '20px'], 
         base: ['30px', '38px'],
         lg: ['24px', '28px'],
         xl: ['48.832px', '63px'],

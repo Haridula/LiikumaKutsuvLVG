@@ -12,7 +12,7 @@ const Loader = () => {
     return () => clearTimeout(timer); // Cleanup timeout on component unmount
   }, []);
 
-  // Best loading thing I have ever seen in my entire life 
+  // Best loading thing I have ever seen in my entire life!
   return (
     <>
       {isLoading ? (
@@ -24,7 +24,7 @@ const Loader = () => {
           </div>
         </div>
       ) : (
-        <div/>
+        <></>
       )}
     </>
   );
