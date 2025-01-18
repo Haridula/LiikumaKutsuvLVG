@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -9,7 +9,7 @@ const tracks = () => {
     <div className='app'>
         <div>
             <p className='head_text text-center blue_gradient mb-10'>
-                Vali hoone alustaseks...
+                Select the wing to start...
             </p>
 
             <Image
@@ -20,21 +20,25 @@ const tracks = () => {
                 className='mb-10'
             />
 
-            <Link href="tracks/A">
-                <button className="blue_btn text-xl xs:hidden absolute font-bold left-1/4 max-sm:hidden">
-                    A-wing
-                </button>
-            </Link>
+            {/* Mobile */}
 
             <Link href="tracks/A">
-                <button className="blue_btn text-base font-bold absolute left-3 sm:left-3 md:hidden">
+                <button className="blue_btn text-xl xs:hidden absolute font-bold left-1/4 max-sm:hidden max-md:hidden">
                     A-wing
                 </button>
             </Link>
         
             <Link href="tracks/B">
-                <button className="blue_btn text-xl font-bold right-1/4 absolute max-sm:hidden">
+                <button className="blue_btn text-xl font-bold right-1/4 absolute max-sm:hidden max-md:hidden">
                     B-wing
+                </button>
+            </Link>
+
+            {/* Desktop */}
+            
+            <Link href="tracks/A">
+                <button className="blue_btn text-base font-bold absolute left-3 sm:left-3 md:hidden">
+                    A-wing
                 </button>
             </Link>
 
@@ -45,7 +49,7 @@ const tracks = () => {
             </Link>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default tracks

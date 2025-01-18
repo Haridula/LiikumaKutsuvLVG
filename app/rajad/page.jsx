@@ -20,21 +20,25 @@ const rajad = () => {
                 className='mb-10'
             />
 
-            <Link href="/rajad/A">
-                <button className="blue_btn text-xl xs:hidden absolute font-bold left-1/4 max-sm:hidden">
-                    A-hoone
-                </button>
-            </Link>
+            {/* Mobile */}
 
             <Link href="/rajad/A">
-                <button className="blue_btn text-base font-bold absolute left-3 sm:left-3 md:hidden">
+                <button className="blue_btn text-xl xs:hidden absolute font-bold left-1/4 max-sm:hidden max-md:hidden">
                     A-hoone
                 </button>
             </Link>
         
             <Link href="/rajad/B">
-                <button className="blue_btn text-xl font-bold right-1/4 absolute max-sm:hidden">
+                <button className="blue_btn text-xl font-bold right-1/4 absolute max-sm:hidden max-md:hidden">
                     B-hoone
+                </button>
+            </Link>
+
+            {/* Desktop */}
+            
+            <Link href="/rajad/A">
+                <button className="blue_btn text-base font-bold absolute left-3 sm:left-3 md:hidden">
+                    A-hoone
                 </button>
             </Link>
 

@@ -12,12 +12,12 @@ function RootLayout({ children, loader }) { //do not remove the loader prop. It 
     <html>
       <body>
       <Nav/>
-        <main> 
+        <main> {/* remember not to use global styles here.*/}
           <Loader/>
           {children}
         </main>
       </body>
     </html>
-  ); //remember not to use global styles.
+  ); 
 };
 export default RootLayout
