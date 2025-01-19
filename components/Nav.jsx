@@ -57,16 +57,16 @@ export default function Nav() {
             ) : null
           }
           <div className="">
-            <div className="font-medium flex md-flex-col p-4 md:p-0 mt-4 md:flex-row space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
+            <div className="flex p-4 md:p-0 mt-4 space-x-8 md:mt-0">
               {currentLanguage === '/' ? (
                   <>
-                    <button onClick={() => aboutPage('/')} className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
+                    <button onClick={() => aboutPage('/')} className="self-center text-sm font-semibold hover:text-blue-600">
                       About
                     </button>
                   </>
                 ) : currentLanguage === 'en' ? (
                   <>
-                    <button onClick={() => aboutPage('en')} className="self-center text-sm font-semibold whitespace-nowrap hover:text-blue-600">
+                    <button onClick={() => aboutPage('en')} className="self-center text-sm font-semibold hover:text-blue-600">
                       About
                     </button>
                   </>
@@ -77,7 +77,7 @@ export default function Nav() {
               {currentLanguage === '/' ? (
                 <>
                   <button className='tracking-wide font-semibold text-sm hover:text-blue-600' onClick={() => changeLanguage('en')}>English&nbsp;
-                    <span className="Emoji_emoji__6sYSR __variable_c30de8 Emoji_emoji-large__iiCJx !bg-transparent transform active:scale-75 transition-transform" data-src="">
+                    <span>
                       🇬🇧
                     </span>
                   </button>
@@ -85,7 +85,7 @@ export default function Nav() {
               ) : currentLanguage === 'en' ? (
                 <>
                   <button className='tracking-wide font-semibold text-sm hover:text-blue-600' onClick={() => changeLanguage('/')}>Eesti&nbsp;
-                    <span className="Emoji_emoji__6sYSR __variable_c30de8 Emoji_emoji-large__iiCJx !bg-transparent transform active:scale-75 transition-transform" data-src="">
+                    <span>
                       🇪🇪
                     </span>
                   </button>

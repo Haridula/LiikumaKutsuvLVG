@@ -10,7 +10,9 @@ const about = () => {
         <h1 className='mt-2.5 mb-2.5 text-base font-bold text-black blue_gradient'>
           This webapp is created especially for the practical work.
         </h1>
+
         <hr className='mt-5 mb-2.5'/>
+
         <p className='mt-5 mb-5 text-lg text-black'> 
           <strong>Author:</strong> Konstantin Razdolski
         </p>

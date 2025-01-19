@@ -17,7 +17,7 @@ const B = () => {
         </div>
         <hr className='mt-5 mb-5'/>
         <div>
-          <div className='grid grid-cols-1 gap-6 sgrid-cols-2'>
+          <div className='grid gap-6 grid-cols-2'>
             <h2 className='mt-2.5 mb-2.5 font-bold text-base text-black'>
               Placeholder h2
             </h2>
@@ -37,7 +37,7 @@ const B = () => {
         <hr className='mt-5 mb-5'/>
 
         <div>
-          <div className='grid grid-cols-1 gap-6 sm:grid-cols-2'>
+          <div className='grid gap-6 grid-cols-2'>
             <h2 className='mt-2.5 mb-2.5 font-bold text-base text-black'>
               Placeholder h2
             </h2>
@@ -65,7 +65,7 @@ const B = () => {
         </div>
         <hr className='mt-5 mb-5'/>
         <div>
-          <div className='grid grid-cols-1 gap-6 sgrid-cols-2'>
+          <div className='grid grid-cols-1 gap-6'>
             <h2 className='mt-2.5 mb-2.5 font-bold text-base text-black'>
               Placeholder h2
             </h2>
@@ -88,7 +88,7 @@ const B = () => {
         <hr className='mt-5 mb-10'/>
         
         <div>
-          <div className='grid grid-cols-1 gap-6 sm:grid-cols-2'>
+          <div className='grid grid-cols-1 gap-6'>
             <h2 className='mt-2.5 mb-2.5 font-bold text-base text-black'>
               Placeholder h2
             </h2>

@@ -16,7 +16,7 @@ const Loader = () => {
   return (
     <>
       {isLoading ? (
-        <div className="min-h-screen flex justify-center items-center bg-white">
+        <div className="min-h-screen flex justify-center items-center">
           <div className="loader bg-stone-800 p-5 rounded-full flex space-x-3">
             <div className="w-5 h-5 bg-indigo-200 rounded-full animate-bounce"/>
             <div className="w-5 h-5 bg-indigo-200 rounded-full animate-bounce"/>
