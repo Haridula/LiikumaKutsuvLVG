@@ -13,7 +13,7 @@ const B = () => {
         <div className='max-sm:hidden max-md:hidden'>
           <div>
             <h1 className='mt-2.5 mb-2.5 text-xl font-bold blue_gradient'>
-              A-hoone:
+              B-wing:
             </h1>
           </div>
           <hr className='mt-5 mb-5'/>
@@ -65,7 +65,7 @@ const B = () => {
         <div className='md:hidden'>
           <div>
             <h1 className='mt-2.5 mb-2.5 text-xl font-bold blue_gradient'>
-              A-hoone:
+              B-wing:
             </h1>
           </div>
 
