@@ -1,6 +1,7 @@
 import '@styles/globals.css';
 import Nav from '@components/Nav';
 import Loader from '@components/loader';
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
     title: "Liikuma Kutsuv LVG",
