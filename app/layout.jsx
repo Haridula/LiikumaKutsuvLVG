@@ -16,6 +16,7 @@ function RootLayout({children}) {
         <Nav/>
         <main> {/* remember not to use global styles here.*/}
           {children}
+          <Analytics/>
         </main>
       </body>
     </html>
