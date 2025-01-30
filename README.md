@@ -1,6 +1,6 @@
 This project is made using [Next.js 14.2.22](https://nextjs.org/) and [React 18.3.1](https://react.dev/).
 
-You can [access it here](https.//harid.tech/) or use  the [alternate link](https://liikuma-kutsuv-lvg.vercel.app) (It is also pinned at the top of the repo).
+You can [access it here](https.//harid.tech/) or use  the [alternate link](https://liikuma-kutsuv-lvg.vercel.app) (It is also pinned in about section at the top of the repo).
 
 ## What did I use?
 
@@ -17,13 +17,13 @@ I started the project for my [secondary school](https://www.laveg.edu.ee/et) pra
 
 Skills:
 - html syntax
-- Tailwind css styles
+- Tailwind CSS styles
 - Git (Still need to improve)
 - Fullstack webapp creation
 - JavaScript (Beginner's level)
 - Routing at web
 - Web development in general
 
-__Thanks to my brother (Aleksandr Razdolski) for heading me and thanks to my Estonian language teacher (Maria Roganova) that aproached with the project idea.__
+Thanks to my brother (Aleksandr Razdolski) for heading me and thanks to my Estonian language teacher (Maria Roganova) that aproached with the project idea.
 
 I learned much and I would like to try something like this in future. 😉🤙
