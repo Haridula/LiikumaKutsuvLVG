@@ -12,10 +12,10 @@ const Home = () => {
         </h1>
         <br className="max-md:hidden" />
         <span className="w-full flex-center flex-col head_text text-center blue_gradient">
-          Liigume, LVG õpilased!              
+          LVG õpilased, kõik liikuma!              
         </span>
         <p className="w-full flex-center flex-col desc text-center">
-          Leiage oma endale kasulikud nõuanned, et koguaeg terveks jääda.
+          Olge aktiivsed ja püsige terved!
         </p>
       </div>
       <div className='items-center justify-center md:mx-40'>

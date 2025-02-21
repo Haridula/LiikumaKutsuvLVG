@@ -9,7 +9,7 @@ const rajad = () => {
     <div className='app'>
         <div>
             <p className='head_text text-center blue_gradient mb-10'>
-                Vali hoone alustaseks...
+c                Vali hoone alustamiseks...
             </p>
 
             <Image
