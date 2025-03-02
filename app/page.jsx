@@ -6,15 +6,15 @@ import React from 'react';
 const Home = () => {
   return (
     <div className='app'>
-      <div>
-        <h1 className="w-full flex-center flex-col head_text text-center">
+      <div className='w-full flex-center flex-col text-center'>
+        <h1 className=" head_text">
           Liikumine on rõõm!
         </h1>
         <br className="max-md:hidden" />
-        <span className="w-full flex-center flex-col head_text text-center blue_gradient">
+        <span className="head_text  blue_gradient">
           LVG õpilased, kõik liikuma!              
         </span>
-        <p className="w-full flex-center flex-col desc text-center">
+        <p className="desc">
           Olge aktiivsed ja püsige terved!
         </p>
       </div>
