@@ -8,12 +8,12 @@ Tools:
 - Next.js
 - React
 - Tailwind CSS
-- Git
+- Git (obviously)
 - Node.js
 
 ## What is it for?
 
-I started the project for my [secondary school](https://www.laveg.edu.ee/et) practical work at 11th grade. Also I wanted to learn some web-development. Here I'm just gonna name skills I learned during the project.
+I started the project for my [secondary school](https://www.laveg.edu.ee/et) practical work at 11th grade. Also I wanted to learn some web-development. Here I'm just gonna name skills I've learnt during the project.
 
 Skills:
 - html syntax
