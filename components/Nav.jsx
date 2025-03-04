@@ -60,13 +60,13 @@ export default function Nav() {
             <div className="flex p-4 md:p-0 mt-4 space-x-8 md:mt-0">
               {currentLanguage === '/' ? (
                   <>
-                    <button onClick={() => aboutPage('/')} className="self-center text-sm font-semibold hover:text-blue-600">
+                    <button onClick={() => aboutPage('/')} className="self-center text-sm font-semibold transition hover:text-cornflower-blue-400">
                       About
                     </button>
                   </>
                 ) : currentLanguage === 'en' ? (
                   <>
-                    <button onClick={() => aboutPage('en')} className="self-center text-sm font-semibold hover:text-blue-600">
+                    <button onClick={() => aboutPage('en')} className="self-center text-sm font-semibold transition hover:text-cornflower-blue-400">
                       About
                     </button>
                   </>
@@ -76,7 +76,7 @@ export default function Nav() {
             <div className='flex'>
               {currentLanguage === '/' ? (
                 <>
-                  <button className='tracking-wide font-semibold text-sm hover:text-blue-600' onClick={() => changeLanguage('en')}>English&nbsp;
+                  <button className='tracking-wide font-semibold text-sm transition hover:text-cornflower-blue-400' onClick={() => changeLanguage('en')}>English&nbsp;
                     <span>
                       🇬🇧
                     </span>
@@ -84,7 +84,7 @@ export default function Nav() {
                 </>
               ) : currentLanguage === 'en' ? (
                 <>
-                  <button className='tracking-wide font-semibold text-sm hover:text-blue-600' onClick={() => changeLanguage('/')}>Eesti&nbsp;
+                  <button className='tracking-wide font-semibold text-sm transition hover:text-cornflower-blue-400' onClick={() => changeLanguage('/')}>Eesti&nbsp;
                     <span>
                       🇪🇪
                     </span>

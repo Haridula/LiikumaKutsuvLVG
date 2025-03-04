@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* background: */
+
+body {
+    background: #eff1f5;
+}
 
 /* Loader Styles */
 
@@ -25,23 +29,23 @@
 }
 
 .black_btn {
-    @apply rounded-xl border border-black bg-black py-3 px-5 text-white transition-all hover:bg-white hover:text-black text-center font-inter flex items-center justify-center;
+    @apply rounded-xl border border-black bg-black py-3 px-5 text-white transition-all hover:bg-white hover:text-black text-center font-figtree flex items-center justify-center;
 }
 
 .blue_btn {
-    @apply rounded-xl border border-blue-600 bg-blue-600 py-3 px-5 text-white transition-all hover:bg-white hover:text-black text-center font-inter flex items-center justify-center;
+    @apply rounded-2xl hover:border border-main bg-cornflower-blue-400 py-3 px-5 text-background transition hover:bg-background hover:text-subtext-gray text-center font-figtree flex items-center justify-center;
 }
 
 .head_text {
-    @apply mt-5 text-xl font-extrabold leading-[1.15] text-black sm:text-xl;
+    @apply mt-5 text-xl font-extrabold leading-[1.15] sm:text-xl text-main;
 }
 
 .blue_gradient {
-    @apply bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-cornflower-blue-400 to-cornflower-blue-500 bg-clip-text text-transparent;;
 }
 
 .desc {
-    @apply mt-5 text-gray-600 text-sm max-w-xl;
+    @apply mt-5 text-subtext-gray text-sm max-w-xl;
 }
 
 .flex-center {
@@ -51,5 +55,5 @@
 /* Nav Component */
 
 .logo_text {
-    @apply max-sm:hidden font-satoshi font-semibold text-sm text-black tracking-wide;
+    @apply max-sm:hidden font-figtree font-semibold text-sm tracking-wide;
 }

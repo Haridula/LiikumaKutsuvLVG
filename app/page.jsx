@@ -7,21 +7,21 @@ const Home = () => {
   return (
     <div className='app'>
       <div className='w-full flex-center flex-col text-center'>
-        <h1 className=" head_text">
+        <h1 className="head_text">
           Liikumine on rõõm!
         </h1>
         <br className="max-md:hidden" />
         <span className="head_text  blue_gradient">
           LVG õpilased, kõik liikuma!              
         </span>
-        <p className="desc">
-          Olge aktiivsed ja püsige terved!
+        <p className="desc font-semibold">
+          Olge aktiivsed ja püsige terved
         </p>
       </div>
       <div className='items-center justify-center md:mx-40'>
-        <div className="text-center pt-36 text-lg font-extrabold text-black ">
+        <div className="text-center pt-36 text-lg font-extrabold">
           <Link href="/rajad">
-            <p className="rounded-2xl border border-black bg-black py-3 md:px-48 max-sm:px-20 sm:px-48 text-white transition-all hover:bg-white hover:text-black font-inter">
+            <p className="rounded-2xl hover:border border-main bg-cornflower-blue-400 py-3 md:px-48 max-sm:px-20 sm:px-48 text-background transition hover:bg-background hover:text-subtext-gray">
               Vali oma rada!
             </p>
           </Link>

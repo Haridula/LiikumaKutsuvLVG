@@ -16,10 +16,10 @@ const A = () => {
               A-hoone:
             </h1>
           </div>
-          <hr className='mt-5 mb-5'/>
+          <hr className='mt-5 mb-5 border-divider'/>
           <div>
             <div className='grid grid-cols-2 gap-6'>
-              <h2 className='mt-2.5 mb-2.5 font-bold text-base text-black'>
+              <h2 className='mt-2.5 mb-2.5 font-bold text-base'>
                 Placeholder h2
               </h2>
               <Image
@@ -31,17 +31,17 @@ const A = () => {
               />
             </div>
             <div>
-              <p className='mt-5 mb-28 text-lg text-black'>
+              <p className='mt-5 mb-28 text-lg'>
                 Placeholder paragraph
               </p>
             </div>
           </div>
 
-            <hr className='mt-5 mb-5'/>
+            <hr className='mt-5 mb-5 border-divider'/>
 
           <div>
             <div className='grid grid-cols-2 gap-6'>
-              <h2 className='mt-2.5 mb-2.5 font-bold text-base text-black'>
+              <h2 className='mt-2.5 mb-2.5 font-bold text-base'>
               Placeholder h2
             </h2>
             <Image
@@ -53,7 +53,7 @@ const A = () => {
             />
           </div>
             <div>
-              <p className='mb-28 text-lg text-black'>
+              <p className='mb-28 text-lg'>
                 Placeholder paragraph
               </p>
             </div>
@@ -69,15 +69,15 @@ const A = () => {
             </h1>
           </div>
 
-          <hr className='mt-5 mb-5'/>
+          <hr className='mt-5 mb-5 border-divider'/>
 
           <div>
             <div className='grid grid-cols-1 gap-6'>
-              <h2 className='mt-2.5 mb-2.5 font-bold text-base text-black'>
+              <h2 className='mt-2.5 mb-2.5 font-bold text-base'>
                 Placeholder h2
               </h2>
               <div>
-                <p className='mb-12 text-lg text-black'>
+                <p className='mb-12 text-lg'>
                   Placeholder paragraph
                 </p>
               </div>
@@ -92,15 +92,15 @@ const A = () => {
             </div>
           </div>
 
-          <hr className='mt-5 mb-10'/>
+          <hr className='mt-5 mb-10 border-divider'/>
         
           <div>
             <div className='grid grid-cols-1 gap-6'>
-              <h2 className='mt-2.5 mb-2.5 font-bold text-base text-black'>
+              <h2 className='mt-2.5 mb-2.5 font-bold text-base'>
                 Placeholder h2
               </h2>
               <div>
-                <p className='mb-12 text-lg text-black'>
+                <p className='mb-12 text-lg'>
                   Placeholder paragraph
                 </p>
               </div>

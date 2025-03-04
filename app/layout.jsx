@@ -10,8 +10,8 @@ export const metadata = {
 
 function RootLayout({children}) {
   return (
-    <html>
-      <body >
+    <html lang='et'>
+      <body className='font-figtree text-main'>
         <Loader/>
         <Nav/>
         <main> {/* remember not to use global styles here.*/}

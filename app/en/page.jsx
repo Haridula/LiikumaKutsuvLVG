@@ -6,22 +6,21 @@ import React from 'react';
 const Home = () => {
   return (
     <div className='app'>
-      <div>
-        <h1 className="w-full flex-center flex-col head_text text-center">
+      <div className='w-full flex-center flex-col text-center'>
+        <h1 className="head_text">
           Movement is joy!
         </h1>
-        <br className="max-md:hidden"/>
-        <span className="w-full flex-center flex-col head_text text-center blue_gradient">
-          Let us move, LVG students!              
+        <span className="head_text  blue_gradient">
+          Let us move, LVG students!             
         </span>
-        <p className="w-full flex-center flex-col desc text-center">
-          Find your own helpful tips to stay healthy all the time.
+        <p className="desc font-semibold">
+          Be active and stay healthy
         </p>
       </div>
       <div className='items-center justify-center md:mx-40'>
-        <div className="text-center pt-36 text-lg font-extrabold text-black ">
+        <div className="text-center pt-36 text-lg font-extrabold">
           <Link href="en/tracks">
-            <p className="rounded-2xl border border-black bg-black py-3 md:px-60 max-sm:px-8 sm:px-48 text-white transition-all hover:bg-white hover:text-black font-inter">
+            <p className="rounded-2xl hover:border border-main bg-cornflower-blue-400 py-3 md:px-48 max-sm:px-20 sm:px-48 text-background transition hover:bg-background hover:text-subtext-gray">
               Choose your track!
             </p>
           </Link>

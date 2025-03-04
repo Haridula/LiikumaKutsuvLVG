@@ -14,11 +14,15 @@ module.exports = {
       },
     extend: {
       fontFamily: {
-        satoshi: ['Satoshi', 'sans-serif'],
-        inter: ['Inter', 'sans-serif'],
+        figtree: ['Figtree', 'sans-serif'],
       },
       colors: {
-        'primary-orange': '#FF5722',
+      'cornflower-blue-400': '#7287fd',
+      'cornflower-blue-500': '#5d69f7',
+      'subtext-gray': '#5c5f77',
+      'main': '#4c4f69',
+      'background': '#eff1f5',
+      'divider': '#9ca0b0',
       }
     },
   },
