@@ -24,7 +24,7 @@ export default function Nav() {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {currentLanguage === '/' ? ( //Navbar changes depending on the language set by currentLanguage variable.
                 <>
-                  <button onClick={() => changeLanguage('/')} className="hover:underline flex items-center space-x-3 rtl:space-x-reverse">
+                  <button onClick={() => changeLanguage('/')} className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image
                     className=""
                     src="/assets/images/logo.jpg"
@@ -33,7 +33,7 @@ export default function Nav() {
                     height={55}
                     />
                             
-                    <p className="self-center text-sm font-semibold whitespace-nowrap max-sm:hidden">
+                    <p className="self-center text-sm font-semibold whitespace-nowrap max-sm:hidden hover:underline">
                       Liikuma Kutsuv LVG
                     </p>
                   </button>
@@ -49,7 +49,7 @@ export default function Nav() {
                   height={55}
                   />
                   
-                  <p className="self-center text-sm font-semibold whitespace-nowrap max-sm:hidden">
+                  <p className="self-center text-sm font-semibold whitespace-nowrap max-sm:hidden hover:underline">
                     Liikuma Kutsuv LVG
                   </p>
                 </button>
