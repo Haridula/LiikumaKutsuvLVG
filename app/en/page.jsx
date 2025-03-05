@@ -20,7 +20,7 @@ const Home = () => {
       <div className='items-center justify-center md:mx-40'>
         <div className="text-center pt-36 text-lg font-extrabold">
           <Link href="en/tracks">
-            <p className="rounded-2xl hover:border border-main bg-cornflower-blue-400 py-3 md:px-48 max-sm:px-20 sm:px-48 text-background transition hover:bg-background hover:text-subtext-gray">
+            <p className="rounded-2xl hover:border border-main bg-cornflower-blue-400 py-3 md:px-48 max-sm:px-14 sm:px-48 text-background transition hover:bg-background hover:text-subtext-gray">
               Choose your track!
             </p>
           </Link>

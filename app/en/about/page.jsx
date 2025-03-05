@@ -8,7 +8,7 @@ const about = () => {
     <div className='app'>
       <div className='mt-5 mb-5 border-divider'>
         <h1 className='mt-2.5 mb-2.5 text-base font-bold blue_gradient'>
-          This webapp is created especially for the practical work.
+          This webapp is created specially for the practical work.
         </h1>
 
         <hr className='mt-5 mb-2.5'/>
