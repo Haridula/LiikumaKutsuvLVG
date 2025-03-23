@@ -46,7 +46,7 @@ Now you can change description, if you want and click `Create fork` button.
 
 Wait a second and we're done!
 
-## Step 2: Deploy on vercel.
+## Step 2: Deploy on Vercel.
 
 Go to [Vercel](https://vercel.com/) and click `Start Deploying`.
 
