@@ -74,4 +74,4 @@ Here, go down and click deploy. Wait a minute until deploying is complete.
 
 Done!
 
-### **NB!** *If you want to change the domain name, which other people use to access the website, go to Settings -> Domains -> Edit. Here you can set the domain whatever you want.*
+### **NB!** *If you want to change the domain name which other people use to access the website, go to Settings -> Domains -> Edit. Here you can set the domain whatever you want.*
