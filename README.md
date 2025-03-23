@@ -46,7 +46,7 @@ Now you can change description, if you want and click `Create fork` button.
 
 Wait a second and we're done!
 
-## Step 2: Deploy on vercel
+## Step 2: Deploy on vercel.
 
 Go to [Vercel](https://vercel.com/) and click `Start Deploying`.
 
@@ -54,7 +54,7 @@ Go to [Vercel](https://vercel.com/) and click `Start Deploying`.
 
 Then head to the "**Import Git Repository**" section and click `Continue with GitHub`.
 
-![image](https://raw.githubusercontent.com/Haridula/LiikumaKutsuvLVG/refs/heads/main/public/assets/images/continue-with-github.png)
+![image](https://github.com/Haridula/LiikumaKutsuvLVG/blob/main/public/assets/images/continue-with-github.png)
 
 Now you may need to verify yourself with your phone number. You'll receive an sms with single-use code.
 
@@ -64,7 +64,7 @@ Once you appeared back to the page, you can go ahead clicking `install` button. 
 
 ![image](https://raw.githubusercontent.com/Haridula/LiikumaKutsuvLVG/refs/heads/main/public/assets/images/install-vercel-github.png)
 
-You are logged in and can import your forked repository to the Vercel
+You are logged in and can import your forked repository to the Vercel.
 
 ![image](https://raw.githubusercontent.com/Haridula/LiikumaKutsuvLVG/refs/heads/main/public/assets/images/import-repo.png)
 
@@ -74,4 +74,4 @@ Here, go down and click deploy. Wait a minute until deploying is complete.
 
 Done!
 
-### **NB!** *if you want to change the domain name, which other people use to access the website, go to Settings -> Domains -> Edit. Here you can set the domain whateever you want.*
+### **NB!** *If you want to change the domain name, which other people use to access the website, go to Settings -> Domains -> Edit. Here you can set the domain whatever you want.*
