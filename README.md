@@ -1,6 +1,6 @@
 This project is made using [*Next.js 14.2.22*](https://nextjs.org/) and [*React 18.3.1*](https://react.dev/). Later updated to <ins>*Next.js 15.2.1*</ins> and <ins>*React 19.0.0*</ins>.
 
-You can [access it here](https.//harid.tech/) or use  the [alternate link](https://liikuma-kutsuv-lvg.vercel.app) (It is also pinned in about section at the top of the repo).
+You can [access it here](https.//harid.tech/) or use the [alternate link](https://liikuma-kutsuv-lvg.vercel.app) (It is also pinned in about section at the top of the repo).
 
 ## What did I use?
 

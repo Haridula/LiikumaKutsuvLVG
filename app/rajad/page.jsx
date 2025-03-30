@@ -13,14 +13,14 @@ const rajad = () => {
             </p>
 
             <Image
+                className='mb-10'
                 src="/assets/images/plan.png"
                 alt="LVG Logo"
                 width={600}
                 height={600}
-                className='mb-10'
             />
 
-            {/* Mobile */}
+            {/* Desktop */}
 
             <Link href="/rajad/A">
                 <button className="blue_btn text-xl xs:hidden absolute font-bold left-1/4 max-sm:hidden max-md:hidden">
@@ -34,7 +34,7 @@ const rajad = () => {
                 </button>
             </Link>
 
-            {/* Desktop */}
+            {/* Mobile */}
             
             <Link href="/rajad/A">
                 <button className="blue_btn text-base font-bold absolute left-3 sm:left-3 md:hidden">

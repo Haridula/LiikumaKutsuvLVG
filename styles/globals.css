@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* background: */
+/* Background: */
 
 body {
     background: #eff1f5;
@@ -24,6 +24,12 @@ body {
 
 /* Global Styles */
 
+hr {
+    border: 1px solid;
+    width: 50%;
+    margin: 0 auto;
+}
+
 .app {
     @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }
@@ -33,7 +39,7 @@ body {
 }
 
 .blue_btn {
-    @apply rounded-2xl hover:border border-main bg-cornflower-blue-400 py-3 px-5 text-background transition hover:bg-background hover:text-subtext-gray text-center font-figtree flex items-center justify-center;
+    @apply rounded-2xl hover:border-4 border-cornflower-blue-400 bg-cornflower-blue-400 py-3 px-5 text-background hover:bg-background hover:text-subtext-gray text-center font-figtree flex items-center justify-center;
 }
 
 .head_text {
@@ -41,7 +47,7 @@ body {
 }
 
 .blue_gradient {
-    @apply bg-gradient-to-r from-cornflower-blue-400 to-cornflower-blue-500 bg-clip-text text-transparent;;
+    @apply bg-gradient-to-r from-cornflower-blue-400 to-cornflower-blue-500 bg-clip-text text-transparent;
 }
 
 .desc {
@@ -50,6 +56,12 @@ body {
 
 .flex-center {
     @apply flex justify-center items-center;
+}
+
+.image_border {
+    border: 8px solid;
+    border-radius: 3.5px;
+    background: radial-gradient(circle, rgba(114,135,253,1) 50%, rgba(93,105,247,1) 95%);
 }
 
 /* Nav Component */

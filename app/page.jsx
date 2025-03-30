@@ -21,7 +21,7 @@ const Home = () => {
       <div className='items-center justify-center md:mx-40'>
         <div className="text-center pt-36 text-lg font-extrabold">
           <Link href="/rajad">
-            <p className="rounded-2xl hover:border border-main bg-cornflower-blue-400 py-3 md:px-48 max-sm:px-20 sm:px-48 text-background transition hover:bg-background hover:text-subtext-gray">
+            <p className="rounded-2xl hover:border-4 border-cornflower-blue-400 bg-cornflower-blue-400 py-3 md:px-48 max-sm:px-20 sm:px-48 text-background transition hover:bg-background hover:text-subtext-gray">
               Vali oma rada!
             </p>
           </Link>

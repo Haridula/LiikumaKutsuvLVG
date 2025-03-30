@@ -8,13 +8,14 @@ module.exports = {
   theme: {
       fontSize: { //These are custom sizes. Try not to change them.
         sm: ['20px', '20px'], 
-        base: ['30px', '38px'],
         lg: ['24px', '28px'],
+        base: ['30px', '38px'],
+        smxl: ['42px', '42px'],
         xl: ['48.832px', '63px'],
       },
     extend: {
       fontFamily: {
-        figtree: ['Figtree', 'sans-serif'],
+        figtree: ['figtree', 'sans-serif'],
       },
       colors: {
       'cornflower-blue-400': '#7287fd',

@@ -1,6 +1,7 @@
 import '@styles/globals.css';
 import Nav from '@components/Nav';
 import Loader from '@components/loader';
+import Scrollback from '@components/Scrollback';
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
@@ -12,6 +13,7 @@ function RootLayout({children}) {
   return (
     <html lang='et'>
       <body className='font-figtree text-main'>
+        <Scrollback/>
         <Loader/>
         <Nav/>
         <main> {/* remember not to use global styles here.*/}
