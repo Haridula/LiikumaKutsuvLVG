@@ -60,13 +60,13 @@ export default function Nav() {
             <div className="flex p-4 md:p-0 mt-4 space-x-8 md:mt-0">
               {currentLanguage === '/' ? (
                   <>
-                    <button onClick={() => aboutPage('/')} className="self-center text-sm font-semibold transition hover:text-cornflower-blue-400">
+                    <button onClick={() => aboutPage('/')} className="tracking-wide text-sm font-semibold transition hover:text-cornflower-blue-400">
                       About
                     </button>
                   </>
                 ) : currentLanguage === 'en' ? (
                   <>
-                    <button onClick={() => aboutPage('en')} className="self-center text-sm font-semibold transition hover:text-cornflower-blue-400">
+                    <button onClick={() => aboutPage('en')} className="tracking-wide text-sm font-semibold transition hover:text-cornflower-blue-400">
                       About
                     </button>
                   </>
