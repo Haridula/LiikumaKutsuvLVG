@@ -10,7 +10,7 @@ const Loader = () => {
     const timer = setTimeout(() => setIsLoading(false));
 
     return () => clearTimeout(timer); // Cleanup timeout on component unmount
-  }, []);
+  }, [])
 
   // Best loading thing I have ever seen in my entire life!
   return (
@@ -28,6 +28,6 @@ const Loader = () => {
       )}
     </>
   );
-};
+}
 
 export default Loader;

@@ -96,6 +96,6 @@ const A = () => {
       </div>
     </div>
   );
-};
+}
 
 export default A

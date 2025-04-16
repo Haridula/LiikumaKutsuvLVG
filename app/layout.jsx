@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 export const metadata = {
     title: "Liikuma Kutsuv LVG",
     description: 'Liikumisega seotud nõuanned ja terviserajad'
-};
+}
 
 function RootLayout({children}) {
   return (
@@ -22,6 +22,6 @@ function RootLayout({children}) {
         </main>
       </body>
     </html>
-  ); 
-};
+  );
+}
 export default RootLayout

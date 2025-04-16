@@ -50,6 +50,6 @@ const tracks = () => {
         </div>
     </div>
   );
-};
+}
 
 export default tracks

@@ -50,6 +50,6 @@ const rajad = () => {
         </div>
     </div>
   );
-};
+}
 
 export default rajad
