@@ -1,6 +1,6 @@
 import '@styles/globals.css';
 import Nav from '@components/Nav';
-import Loader from '@components/loader';
+import Loader from '@components/Loader';
 import Scrollback from '@components/Scrollback';
 import { Analytics } from "@vercel/analytics/react";
 
@@ -24,4 +24,5 @@ const RootLayout = ({children}) => {
     </html>
   );
 }
+
 export default RootLayout
