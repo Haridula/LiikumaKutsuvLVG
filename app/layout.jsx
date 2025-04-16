@@ -9,7 +9,7 @@ export const metadata = {
     description: 'Liikumisega seotud nõuanned ja terviserajad'
 }
 
-function RootLayout({children}) {
+const RootLayout = ({children}) => {
   return (
     <html lang='et'>
       <body className='font-figtree text-main'>
